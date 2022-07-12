@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('https://www.bceleva.com.br/wp-content/uploads/2020/04/wallpaper-azul-papel-de-parede-azul-fundo-11.jpg')
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  border: 1px solid gray;
+  border-radius: 50px;
+  padding: 80px 10px;
+  background-color:lightskyblue
+}
+
+#calculator{
+  width: 100%;
+  padding: 10px;
+}
+
+h1{
+  font-size: 3rem;
+  color: #0c304a;
+}
+
+#timer{
+  border: 1px solid black;
+  margin: 25px 0;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+
+}
+
+#timer .watch{
+  font-size: 3rem;
+}
+
+#button{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#button button{
+  flex: 1;
+  min-width: 200px;
+  margin: 2px;
+  padding: 10px;
+  font-size: 1.50rem;
+  background-color: #0c304a;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.start .paused{
+  min-width: 251px
+}
+
+.paused{
+  color: red
+}
